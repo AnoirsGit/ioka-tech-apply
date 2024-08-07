@@ -1,0 +1,29 @@
+.content-layout {
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 1rem;
+    padding-top: 12rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: var(--text-1);
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60rem; 
+    }
+
+    @media (min-width: 1280px) {
+        width: 80rem; 
+    }
+
+    @media (min-width: 1536px) {
+        width: 90rem; 
+    }
+
+    .content-header {
+        padding-bottom: 1rem;
+    }
+}
