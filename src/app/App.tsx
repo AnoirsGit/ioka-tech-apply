@@ -2,13 +2,16 @@ import React from 'react';
 import './App.scss';
 
 import { Router } from "../pages";
+import NavHeader from '../widgets/header/navHeader';
 
 function App() {
   return (
-    <div className="App">
-      <Router />
-      
-    </div>
+    <>
+    <NavHeader></NavHeader>
+  
+    <Router />      
+    </>
+    
 
   );
 }
