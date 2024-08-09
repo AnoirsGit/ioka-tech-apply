@@ -3,6 +3,7 @@ import First from "../../../pages/home/first";
 import Second from "../../../pages/home/first/second";
 import Third from "../../../pages/home/first/second/third";
 
+//ROUTES POSITION IN ARRAY IS SUFFICIENT
 export const ROUTES = [
   { path: "/", element: <Home />, name: "Home" },
   { path: "/first", element: <First />, name: "First" },
